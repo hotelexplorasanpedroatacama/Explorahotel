@@ -444,9 +444,7 @@
             font-size: 13px;
         }
 
-        /* ==========================================
-           DISEÑO RESPONSIVO PARA CELULARES (Móviles)
-           ========================================== */
+        /* Diseño Responsivo para Celulares */
         @media (max-width: 768px) {
             header {
                 padding: 15px 20px;
@@ -456,7 +454,7 @@
             }
 
             nav ul {
-                display: none; /* Oculta menú principal largo en celulares para evitar desbordes */
+                display: none;
             }
 
             .hero {
@@ -469,7 +467,7 @@
             }
 
             .rooms-grid, .features-grid, .footer-grid {
-                grid-template-columns: 1fr; /* Todo pasa a 1 sola columna ordenada */
+                grid-template-columns: 1fr;
                 gap: 25px;
             }
 
@@ -480,7 +478,7 @@
             }
 
             .photo-gallery {
-                grid-template-columns: repeat(2, 1fr); /* Galería de 2 columnas en celular */
+                grid-template-columns: repeat(2, 1fr);
             }
 
             .footer-grid {
@@ -536,11 +534,9 @@
     <div class="main-content">
         <h2>Aventura a tu manera con nuestras exploraciones en Atacama</h2>
         <p>Tu estancia en Explora Atacama incluye la elección de decenas de Exploraciones guiadas por expertos en tu estancia.</p>
-        <p>Personalizadas para ada
-            
-            ptarse a tu interés y nivel de forma física, estas experiencias de descubrimiento y día completo y medio están diseñadas para grupos pequeños de no más de ocho invitados y están guiadas por guías bilingües certificados de Explora. Elige entre exploraciones clásicas y exclusivas de Explora Signature en cinco zonas únicas, con oportunidades para hacer senderismo, montar en e-bike, escalar e incluso contemplar las estrellas sobre el paisaje de otro mundo de Atacama.</p>
+        <p>Personalizadas para adaptarse a tu interés y nivel de forma física, estas experiencias de descubrimiento y día completo y medio están diseñadas para grupos pequeños de no más de ocho invitados y están guiadas por guías bilingües certificados de Explora. Elige entre exploraciones clásicas y exclusivas de Explora Signature en cinco zonas únicas, con oportunidades para hacer senderismo, montar en e-bike, escalar e incluso contemplar las estrellas sobre el paisaje de otro mundo de Atacama.</p>
         <a href="https://wa.me/56956203450?text=Hola,%20quiero%20ver%20todas%20las%20exploraciones." class="btn-black" target="_blank" rel="noopener noreferrer">VER TODAS LAS EXPLORACIONES</a>
-    </div>*
+    </div>
 
     <!-- Sección de Habitaciones y Precios -->
     <section class="pricing-section" id="habitaciones">
@@ -552,7 +548,7 @@
                 <div class="room-info">
                     <h3>Habitación Tulor</h3>
                     <p>Diseñada para integrarse con el paisaje del desierto, ofreciendo máximo confort, silencio y vistas incomparables.</p>
-                    <div class="room-price">Desde $600 USD / noche</div>
+                    <div class="room-price">Desde $700 USD / noche</div>
                     <a href="https://wa.me/56956203450?text=Hola,%20quiero%20reservar%20la%20Habitaci%C3%B3n%20Tulor." class="room-btn" target="_blank" rel="noopener noreferrer">CONSULTAR POR WHATSAPP</a>
                 </div>
             </div>
@@ -563,7 +559,7 @@
                 <div class="room-info">
                     <h3>Suite Salar</h3>
                     <p>Espacios amplios con detalles en madera nativa, cama King size y baño privado con vistas panorámicas al altiplano.</p>
-                    <div class="room-price">Desde $850 USD / noche</div>
+                    <div class="room-price">Desde $500 USD / noche</div>
                     <a href="https://wa.me/56956203450?text=Hola,%20quiero%20reservar%20la%20Suite%20Salar." class="room-btn" target="_blank" rel="noopener noreferrer">CONSULTAR POR WHATSAPP</a>
                 </div>
             </div>
@@ -574,7 +570,7 @@
                 <div class="room-info">
                     <h3>Habitación Explorador</h3>
                     <p>Acogedora y funcional, ideal para parejas listas para salir a recorrer los volcanes y salares cada mañana.</p>
-                    <div class="room-price">Desde $400 USD / noche</div>
+                    <div class="room-price">Desde $350 USD / noche</div>
                     <a href="https://wa.me/56956203450?text=Hola,%20quiero%20reservar%20la%20Habitaci%C3%B3n%20Explorador." class="room-btn" target="_blank" rel="noopener noreferrer">CONSULTAR POR WHATSAPP</a>
                 </div>
             </div>
@@ -606,7 +602,8 @@
             <a href="https://wa.me/56956203450?text=Hola,%20quiero%20información%20de%20la%20Cuenca%20del%20Salar." class="explore-link" target="_blank" rel="noopener noreferrer">Ver exploraciones > de Cuenca del salar</a>
         </div>
         <div class="section-image">
-            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop" alt="Salar de Atacama">
+            <!-- Imagen real del Salar de San Pedro de Atacama -->
+            <img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?q=80&w=800&auto=format&fit=crop" alt="Salar de San Pedro de Atacama">
         </div>
     </div>
 
@@ -629,7 +626,7 @@
             <h3>3. Altiplano</h3>
             <p>El Altiplano existe allí arriba, en algún punto entre las montañas y el cielo. En su interior, un mundo completamente nuevo espera en silencio a los intrépidos exploradores que se aventuran en su camino.</p>
             <p>Para nosotros, este es un territorio que las palabras simplemente no alcanzan. La zona del Altiplano -o Puna, como se le conoce localmente- se extiende entre 3800 y 4300 m s.n.m. Es una meseta elevada, coronada por imponentes montañas, volcanes y géiseres.</p>
-            <a href="https://wa.me/5656203450?text=Hola,%20quiero%20información%20del%20Altiplano." class="explore-link" target="_blank" rel="noopener noreferrer">Ver exploraciones > en el Altiplano</a>
+            <a href="https://wa.me/56956203450?text=Hola,%20quiero%20información%20del%20Altiplano." class="explore-link" target="_blank" rel="noopener noreferrer">Ver exploraciones > en el Altiplano</a>
         </div>
         <div class="section-image">
             <img src="https://images.unsplash.com/photo-1528150366636-f0454a9d0441?q=80&w=800&auto=format&fit=crop" alt="Altiplano Atacama">
@@ -662,14 +659,14 @@
         </div>
     </div>
 
-    <!-- Galería Horizontal -->
+    <!-- Galería Horizontal (Fotos reales de Atacama y Cordillera de los Andes) -->
     <div class="photo-gallery">
-        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=400" alt="Atacama">
-        <img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?q=80&w=400" alt="Atacama">
-        <img src="https://images.unsplash.com/photo-1528150366636-f0454a9d0441?q=80&w=400" alt="Atacama">
-        <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=400" alt="Atacama">
-        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=400" alt="Atacama">
-        <img src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=400" alt="Atacama">
+        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=400" alt="Cordillera de los Andes Chile">
+        <img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?q=80&w=400" alt="Atacama San Pedro">
+        <img src="https://images.unsplash.com/photo-1528150366636-f0454a9d0441?q=80&w=400" alt="Atacama Altiplano">
+        <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=400" alt="Desierto Atacama Chile">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=400" alt="Cordillera Chile">
+        <img src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=400" alt="Cielo Nocturno Atacama">
     </div>
 
     <!-- Banner CTA -->
@@ -714,9 +711,9 @@
             </div>
             <div class="footer-col" style="grid-column: span 2;">
                 <p style="margin-bottom: 15px; color: #fff;">Si tienes alguna consulta o necesita un presupuesto, por favor contáctenos en los siguientes números:</p>
-                <p style="font-size: 13px; margin-bottom: 5px;">EE. UU. +1 (312) 522-9160</p>
-                <p style="font-size: 13px; margin-bottom: 15px;">Reino Unido 08000 814 084</p>
-                <p style="font-size: 13px; color: #fff;">reservee@explora.com</p>
+                <p style="font-size: 13px; margin-bottom: 5px;">EE. UU. +1 (312) 650-9730</p>
+                <p style="font-size: 13px; margin-bottom: 15px;">Reino Unido 08000 659 751</p>
+                <p style="font-size: 13px; color: #fff;">reserveexplora@gmail.com</p>
             </div>
         </div>
         <div class="footer-bottom">
